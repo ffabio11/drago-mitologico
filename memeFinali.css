@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.pippo {
+    display: flex;
+}
+
+.giancarlo {
+    color:  white;
+    border: 5px solid red;
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.carlo {
+    color:  white;
+    border: 5px solid red;
+    position:absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+.paolo {
+    z-index: -10;
+    display: flex;
+}
+
+.gianpaolo {
+    position: relative;
+    flex: auto;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
